@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        设置背景
+        android:background=图片、颜色
+        老版android设置背景在下拉时会出现背景消失
+        android:cacheColorHint="#FFF"
+        android:scrollingCache="false"
+        android:fadingEdge="none"
+        设置分割线
+        android:divider="颜色值，图片";
+        android:dividerHeight=高度;
+        设置选择颜色透明
+        android:listSelector="#00000000"
+        -->
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp"
+        android:listSelector="#22000000">
+    </ListView>
+</LinearLayout>
